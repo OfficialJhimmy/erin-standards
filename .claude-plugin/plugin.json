@@ -1,0 +1,8 @@
+{
+  "name": "erin-standards",
+  "version": "0.3.0",
+  "description": "Personal Claude Code standards for Oyin's Refactrd client projects: full AI-stack scaffolding, Next.js and Python/AI project scaffolding, feature branching, PR descriptions, deploy checklist, readability and naming audits, lint/typecheck enforcement, secrets guard, and a PR review subagent.",
+  "author": {
+    "name": "Oyin Dawodu"
+  }
+}
