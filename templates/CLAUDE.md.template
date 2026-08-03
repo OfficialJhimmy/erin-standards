@@ -1,0 +1,36 @@
+<!--
+Generic starting point for a brand new project.
+Fill in every placeholder before relying on this, an unfilled template
+is worse than no CLAUDE.md at all since it looks authoritative but says
+nothing real. Delete this comment once filled in.
+-->
+
+# <Project name>
+
+Stack: <e.g. Next.js 15 App Router, TypeScript, Tailwind v4>
+Package manager: <pnpm/npm/yarn>, always use this, not another one
+Deploy: <e.g. Vercel, project name, branch that auto-deploys>
+
+## Commands
+
+- Dev: `<command>`
+- Typecheck: `<command>`
+- Lint: `<command>`
+- Build: `<command>`
+- Test: `<command, or "no test suite yet">`
+
+## Structure
+
+<Where things actually live: app router layout, where shared components/lib/types live, monorepo package boundaries if any.>
+
+## Conventions specific to this repo
+
+- <A real pattern already established here, not a generic best practice>
+
+## Don't
+
+- <A real footgun specific to this repo, e.g. "don't touch X without checking Y">
+
+## Env vars
+
+<Where documented (.env.example, README), and whether local dev needs a .env file or reads from the deploy platform directly.>

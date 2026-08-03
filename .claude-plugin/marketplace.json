@@ -2,9 +2,9 @@
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "erin-marketplace",
   "version": "1.0.0",
-  "description": "Oyin's personal Claude Code plugin marketplace",
+  "description": "Feyijimi's personal Claude Code plugin marketplace",
   "owner": {
-    "name": "Oyin Dawodu"
+    "name": "Feyijimi Erinle"
   },
   "plugins": [
     {
