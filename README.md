@@ -1,6 +1,6 @@
-# erin-standards
+# ERIN-standards
 
-Personal Claude Code plugin for your Refactrd client projects (Next.js, TypeScript, Tailwind, Python/AI). One place to update conventions instead of copy-pasting across TalentFlow, CPODS/Spotpay, BlazeCrux, and Sageberg.
+Personal Claude Code plugin for my projects (Next.js, TypeScript, Tailwind, Python/AI). One place to update conventions instead of copy-pasting across multiple projects.
 
 ## What's in it
 
@@ -13,6 +13,8 @@ Personal Claude Code plugin for your Refactrd client projects (Next.js, TypeScri
   - `/deploy-check`, pre-deploy checklist (typecheck, lint, build, env vars, secrets, debug artifacts)
   - `/readability-refactor`, review a file for readability (function length, nesting, naming, magic numbers) and propose concrete fixes
   - `/naming-audit`, check naming consistency across a directory when conventions have drifted
+  - `/branch-sync`, safely rebase your feature branch on the latest default branch, stops and shows you conflicts rather than guessing at resolutions
+  - `/merge-branch`, merge an approved PR (squash by default), clean up the branch, and return to an up-to-date default branch
 - **Hooks**
   - Blocks Claude from editing `.env*`, credential, and key files (`PreToolUse`, hard block, exit code 2)
   - Runs eslint on any file Claude edits and surfaces findings back into the conversation (`PostToolUse`, advisory only)
